@@ -3,4 +3,4 @@ MAINTAINER Andrey Gribunin 'andrey@gribunin.ru'
 WORKDIR /app
 ADD . /app
 RUN pip install -r requirements.txt
-CMD ['python', 'app.py']
+CMD ["python", "app.py"]
